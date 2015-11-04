@@ -1,5 +1,7 @@
+[![Codecrystal](https://img.shields.io/badge/code-crystal-5CB3FF.svg)](http://codecrystal.herokuapp.com/crystalise/liberty-x/custom-image-rating/master)
+[![bitHound Score](https://www.bithound.io/github/liberty-x/custom-image-rating/badges/score.svg)](https://www.bithound.io/github/liberty-x/custom-image-rating)
+[![bitHound Dependencies](https://www.bithound.io/github/liberty-x/custom-image-rating/badges/dependencies.svg)](https://www.bithound.io/github/liberty-x/custom-image-rating/master/dependencies/npm)
 ## Custom Image Rating - React Component
-
 
 ### Who?
 
