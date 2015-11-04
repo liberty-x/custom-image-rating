@@ -1,10 +1,15 @@
-var Hello = React.createClass({
-    render: function() {
-        return <div>Hello {this.props.name}</div>;
-    }
+var React  = require('react');
+
+var App = React.createClass({
+
+  render: function () {
+
+    return(
+      <div>
+        <p>Hello World</p>
+      </div>
+    );
+  }
 });
 
-ReactDOM.render(
-	<Hello name="World" />,
-    document.getElementById('container')
-);
+module.exports = App;
