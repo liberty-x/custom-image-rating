@@ -14,7 +14,6 @@ var App = React.createClass({
 
     return(
       <div className="appContainer">
-        <p>App</p>
         <Chart {...chartProps}/>
       </div>
     );
