@@ -7,8 +7,8 @@ var rootElement = document.body;
 var devProps = {
   fieldName: "My culinary expertise",
   image: "http://pngimg.com/upload/small/dragon_PNG992.png",
-  maxRating: 5,
-  rating: 3
+  maxRating: 10,
+  rating: 6
 };
 
 require('../styles/main.js');
