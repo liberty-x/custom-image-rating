@@ -4,7 +4,6 @@ var Chart = React.createClass({
 
   render: function () {
 
-    var fieldName = this.props.fieldName;
     var image     = this.props.image;
     var maxRating = this.props.maxRating;
     var rating    = this.props.rating;
@@ -26,14 +25,9 @@ var Chart = React.createClass({
     });
 
     return (
-      <div className="chartContainer">
         <div className="imageBar">
-          <div className="fieldName">
-            <p>{fieldName}</p>
-          </div>
         {printImages}
         </div>
-      </div>
     )
   }
 });
