@@ -9,13 +9,26 @@ var Chart = React.createClass({
     var maxRating = this.props.maxRating;
     var rating    = this.props.rating;
 
+    var arr = [];
+    for (i=0; i<maxRating; i++){
+      arr[i] = 'hi';
+    };
+    var printImages = arr.map(function(el,i){
+      return (
+              <div>
+                <img key={'image'+i} className="imageTag"src={image}></img>
+              </div>
+      );
+    });
+
     return (
-      <div className="chart-container">
+      <div className="chartContainer">
         <p>Hello chart</p>
         <p>{fieldName}</p>
-        <img src={image}></img>
+        <img className="imageTag"src={image}></img>
         <p>{maxRating}</p>
         <p>{rating}</p>
+        {printImages}
       </div>
     )
   }
