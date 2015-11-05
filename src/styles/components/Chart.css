@@ -1,0 +1,35 @@
+.chartContainer {
+  height: 3em;
+}
+
+.fieldName {
+  max-width: 7em;
+  max-height: 3em;
+  float: left;
+  background-color: yellow;
+}
+
+.fieldName p {
+  font-family: sans-serif;
+  word-wrap: normal;
+  text-align: center;
+  top: -50%;
+}
+
+.imageTag {
+  width: 3em;
+  height: 3em;
+}
+
+.shadedImageDiv {
+  float: left;
+  opacity: 0.3;
+}
+
+.imageDiv {
+  float: left;
+}
+
+.imageBar {
+  clear: both;
+}

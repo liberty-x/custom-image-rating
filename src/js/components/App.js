@@ -1,12 +1,21 @@
 var React  = require('react');
+var Chart  = require('./Chart.js');
 
 var App = React.createClass({
 
   render: function () {
 
+    var chartProps  = {
+      fieldName: this.props.fieldName,
+      image: this.props.image,
+      maxRating: this.props.maxRating,
+      rating: this.props.rating
+    };
+
     return(
-      <div>
-        <p>Hello World</p>
+      <div className="appContainer">
+        <p>App</p>
+        <Chart {...chartProps}/>
       </div>
     );
   }
