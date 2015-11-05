@@ -3,15 +3,6 @@ var Chart  = require('./Chart.js');
 
 var App = React.createClass({
 
-  getInitialState: function () {
-    return {
-      fieldName: "HTML",
-      image: "http://pngimg.com/upload/star_PNG1580.png",
-      maxRating: 5,
-      rating: 5
-    }
-  },
-
   render: function () {
 
     var chartProps  = {
@@ -23,7 +14,7 @@ var App = React.createClass({
 
     return(
       <div className="appContainer">
-        <p>Hello App</p>
+        <p>App</p>
         <Chart {...chartProps}/>
       </div>
     );

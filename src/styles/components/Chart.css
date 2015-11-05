@@ -1,6 +1,19 @@
 .chartContainer {
   height: 3em;
-  border: 3px dashed blue;
+}
+
+.fieldName {
+  max-width: 7em;
+  max-height: 3em;
+  float: left;
+  background-color: yellow;
+}
+
+.fieldName p {
+  font-family: sans-serif;
+  word-wrap: normal;
+  text-align: center;
+  top: -50%;
 }
 
 .imageTag {

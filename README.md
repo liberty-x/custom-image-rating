@@ -37,4 +37,4 @@ You will then have a ```bundle.js``` file, and the page will be available at loc
 
 #### Loading CSS
 
-We ran into errors loading css files 
+We ran into errors loading css files, we needed to make sure we had the appropriate dependency in our ```package.json```.
