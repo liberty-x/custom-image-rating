@@ -1,8 +1,19 @@
 .chartContainer {
   background-color: yellow;
+  height: 3em;
 }
 
 .imageTag {
   width: 3em;
   height: 3em;
+}
+
+.imageDiv {
+  float: right;
+  clear: left;
+}
+
+.imageBar {
+  float: left;
+  /*clear: both;*/
 }
