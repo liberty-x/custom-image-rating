@@ -1,24 +1,3 @@
-
-.fieldName {
-  max-width: 9em;
-  max-height: 3em;
-  /*min-width: 2em;
-  min-height: 0.5em;*/
-  float: left;
-  background-color: yellow;
-  /*-webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;*/
-}
-
-.fieldName p {
-  font-family: sans-serif;
-  word-wrap: normal;
-  text-align: center;
-  font-size: 0.5rem;
-
-}
-
 .imageBar {
   clear: both;
     width: 100%;
@@ -27,23 +6,22 @@
 }
 
 .shadedImageDiv {
-  float: left;
+  /*float: left;*/
   opacity: 0.3;
   height: inherit;
-  -webkit-flex: 1;  /* Safari 6.1+ */
-    -ms-flex: 1;  /* IE 10 */
-    flex: 1;
+  -webkit-flex: 0.5;  /* Safari 6.1+ */
+    -ms-flex: 0.5;  /* IE 10 */
+    flex: 0.5;
 }
 
 .imageDiv {
-  float: left;
+  /*float: left;*/
   height: inherit;
-  -webkit-flex: 1;  /* Safari 6.1+ */
-    -ms-flex: 1;  /* IE 10 */
-    flex: 1;
+  -webkit-flex: 0.5;  /* Safari 6.1+ */
+    -ms-flex: 0.5;  /* IE 10 */
+    flex: 0.5;
 
 }
-
 
 .imageTag {
   height: 100%;

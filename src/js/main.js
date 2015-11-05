@@ -5,8 +5,10 @@ var ReactDOM    = require('react-dom');
 var App         = require('./components/App.js');
 var rootElement = document.body;
 var devProps = {
-  fieldName: "My culinary expertise",
-  image: "http://pngimg.com/upload/small/dragon_PNG992.png",
+  animation: false,
+  image: "https://files.gitter.im/RachelBLondon/libert-x/vc9I/dan-sofer.png",
+  //  star for when published
+  // image: "https://files.gitter.im/RachelBLondon/libert-x/ogPz/star-icon-01.png",
   maxRating: 10,
   rating: 6
 };

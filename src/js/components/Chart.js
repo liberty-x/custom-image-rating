@@ -4,7 +4,6 @@ var Chart = React.createClass({
 
   render: function () {
 
-    var fieldName = this.props.fieldName;
     var image     = this.props.image;
     var maxRating = this.props.maxRating;
     var rating    = this.props.rating;
@@ -17,7 +16,7 @@ var Chart = React.createClass({
         arr[i] = 'shadedImageDiv';
       }
     };
-    var printImages = arr.map(function(el,i,arr){
+    var printImages = arr.map(function(el,i){
       return (
               <div className={el}>
                 <img key={'image'+i} className="imageTag"src={image}></img>
@@ -26,14 +25,9 @@ var Chart = React.createClass({
     });
 
     return (
-      <div className="chartContainer">
         <div className="imageBar">
-          <div className="fieldName">
-            <p>{fieldName}</p>
-          </div>
         {printImages}
         </div>
-      </div>
     )
   }
 });

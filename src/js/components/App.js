@@ -6,14 +6,14 @@ var App = React.createClass({
   render: function () {
 
     var chartProps  = {
-      fieldName: this.props.fieldName,
       image: this.props.image,
       maxRating: this.props.maxRating,
-      rating: this.props.rating
+      rating: this.props.rating,
+      animation: this.props.animation
     };
 
     return(
-      <div className="appContainer">
+      <div>
         <Chart {...chartProps}/>
       </div>
     );
