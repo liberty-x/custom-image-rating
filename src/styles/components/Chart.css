@@ -1,6 +1,6 @@
 .chartContainer {
-  background-color: yellow;
   height: 3em;
+  border: 3px dashed blue;
 }
 
 .imageTag {
@@ -8,12 +8,15 @@
   height: 3em;
 }
 
+.shadedImageDiv {
+  float: left;
+  opacity: 0.3;
+}
+
 .imageDiv {
-  float: right;
-  clear: left;
+  float: left;
 }
 
 .imageBar {
-  float: left;
-  /*clear: both;*/
+  clear: both;
 }

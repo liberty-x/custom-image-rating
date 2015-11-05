@@ -10,12 +10,17 @@ var Chart = React.createClass({
     var rating    = this.props.rating;
 
     var arr = [];
-    for (i=0; i<rating; i++){
-      arr[i] = '';
+    for (i=0; i<maxRating; i++){
+      if (i < rating) {
+        arr[i] = 'imageDiv';
+      } else {
+        arr[i] = 'shadedImageDiv';
+      }
     };
-    var printImages = arr.map(function(el,i){
+    console.log(arr);
+    var printImages = arr.map(function(el,i,arr){
       return (
-              <div className="imageDiv">
+              <div className={el}>
                 <img key={'image'+i} className="imageTag"src={image}></img>
               </div>
       );
