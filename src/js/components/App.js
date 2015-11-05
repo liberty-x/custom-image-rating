@@ -8,7 +8,8 @@ var App = React.createClass({
     var chartProps  = {
       image: this.props.image,
       maxRating: this.props.maxRating,
-      rating: this.props.rating
+      rating: this.props.rating,
+      animation: this.props.animation
     };
 
     return(

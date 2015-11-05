@@ -16,7 +16,7 @@ var Chart = React.createClass({
         arr[i] = 'shadedImageDiv';
       }
     };
-    var printImages = arr.map(function(el,i,arr){
+    var printImages = arr.map(function(el,i){
       return (
               <div className={el}>
                 <img key={'image'+i} className="imageTag"src={image}></img>
