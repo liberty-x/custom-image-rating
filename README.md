@@ -25,5 +25,16 @@ Where the fraction ("x out of y" or "x/y") is represented by "x" number of custo
 We will be using React to create the component and using the "props" to set the outcome of the image.
 eg. {fieldName: "HTML", max-rating: 5, rating: 4, image: http://img-src}
 
+If you would like to download the repo, you will need to type these commands into your terminal:
+
+1. ```npm install```
+2. ```npm run dev:build```
+3. ```npm run dev:start```
+
+You will then have a ```bundle.js``` file, and the page will be available at localhost:8080/bundle.
 
 ## Problems We Ran Into
+
+#### Loading CSS
+
+We ran into errors loading css files 
