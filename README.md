@@ -43,9 +43,3 @@ Please use the **exact** spellings:
 |```maxRating``` |number|The scale of the rating i.e. if you are rating something 3 out of 10, this value would be 10!|
 |```rating``` |number|The rating on the scale i.e. if you are rating something 3 out of 10, this value would be 3!|
 |```animation```|boolean|```false``` If you don't want animation, ```true``` if you do! |
-
-## Problems We Ran Into
-
-#### Loading CSS
-
-We ran into errors loading css files, we needed to make sure we had the appropriate dependency in our ```package.json```.
